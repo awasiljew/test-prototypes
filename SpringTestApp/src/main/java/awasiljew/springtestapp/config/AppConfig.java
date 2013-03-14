@@ -1,8 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package awasiljew.springtestapp;
+package awasiljew.springtestapp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 public class AppConfig {
- 
+
     // Resolve logical view names to .jsp resources in the /WEB-INF/views directory
     @Bean
     ViewResolver viewResolver() {
