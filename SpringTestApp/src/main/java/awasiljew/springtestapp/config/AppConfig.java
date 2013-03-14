@@ -9,11 +9,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  *
  * @author adam
  */
-@Configuration
+//@Configuration
 public class AppConfig {
 
     // Resolve logical view names to .jsp resources in the /WEB-INF/views directory
-    @Bean
+    //@Bean
     ViewResolver viewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
         resolver.setPrefix("WEB-INF/views/");
